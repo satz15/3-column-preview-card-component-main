@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:azure;
+    font-weight: 300;
+}
+
+.box{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-one{
+    height: 50vh;
+    width:80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.img-one{
+    margin-right: 8rem;
+}
+.head-one{
+    position: relative;
+    bottom: 40px;
+    right: 40px;
+}
+.para-one{
+    position: relative;
+    bottom: 70px;
+    font-size: 17px; 
+    display: flex; 
+}
+.btn-one{
+    margin-right: 6rem;
+    cursor: pointer;
+    width:8rem;
+    height: 3rem;
+    border-radius: 50px;
+    color: hsl(31, 77%, 52%);
+}
+
+.card-two{
+    height: 50vh;
+    width:80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    color: white;
+    background-color: hsl(184, 100%, 22%); 
+}
+.img-two{
+    margin-right: 8rem;
+} 
+.head-two{
+    position: relative;
+    bottom: 40px;
+    right: 40px;
+}
+.para-two{
+    position: relative;
+    bottom: 70px;
+    font-size: 17px;   
+}
+.btn-two{
+    margin-right: 6rem;
+    cursor: pointer;
+    width:8rem;
+    height: 3rem;
+    border-radius: 50px;
+    color:hsl(184, 100%, 22%); 
+} 
+
+
+.card-three{
+    height: 50vh;
+    width:80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    color: white;
+    background-color: hsl(179, 100%, 13%); 
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.img-three{
+    margin-right: 8rem;
+} 
+.head-three{
+    position: relative;
+    bottom: 40px;
+    right: 40px;
+}
+.para-three{
+    position: relative;
+    bottom: 70px;
+    font-size: 17px;   
+}
+.btn-three{
+    margin-right: 6rem;
+    cursor: pointer;
+    width:8rem;
+    height: 3rem;
+    border-radius: 8rem;
+   color: hsl(179, 100%, 13%);
+}
